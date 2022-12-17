@@ -1,0 +1,61 @@
+:root {
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  }
+.container {
+  background-color: #FAF7FD;
+  color: #BB99DD;
+  text-align: center;
+}
+
+.user {
+  margin-bottom: 33px;
+  margin-top: 15px;
+  font-weight: 300;
+}
+main{
+  align-items: center;
+  background-color: #FAF7FD;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+ul {
+  list-style-type: none;
+}
+ul li {
+  border: 2px solid #BB99DD;
+  border-radius: 5px;
+  margin: 16px;
+  color: #BB99DD;
+  width: 326px;
+  height: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Perfil {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #BB99DD;
+  border-radius: 100%;
+  padding: 2px;
+}
+.icons {
+  display: flex;
+  gap: 29px;
+  justify-content: center;
+  padding-top: 60px;
+}
+a {
+  color: var(--purple);
+  text-decoration: none;
+  font-weight: 600;
+}
